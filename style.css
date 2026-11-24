@@ -101,4 +101,44 @@ p{font-size:32px;line-height:1.45;margin:0 0 22px;max-width:1380px}
 .nav button:hover{background:var(--gold);color:#2b1c00;transform:scale(1.1)}
 .nav button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .num{right:340px;bottom:62px}
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01s!important}[data-a]{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01s!important}[data-a]{opacity:1}}/* text layouts */
+.slide p.t{font-size:28px;line-height:1.4;margin:0 0 14px;max-width:none}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.box{border:1px solid var(--gold);border-radius:28px;padding:34px 38px;background:rgba(242,182,61,.08);box-shadow:0 0 50px rgba(242,182,61,.18)}
+.box .lab{font-family:'Unbounded','Manrope',Arial,sans-serif;font-size:26px;color:var(--gold);margin-bottom:14px;font-weight:700}
+.box p{margin:0;font-size:28px;line-height:1.4;max-width:none}
+.lead{font-family:'Unbounded','Manrope',Arial,sans-serif;font-size:28px;color:var(--gold);margin:0 0 18px;font-weight:500}
+.bul{list-style:none;padding:0;margin:0 0 22px}
+.bul li{font-size:30px;margin-bottom:12px;display:flex;gap:18px;align-items:center}
+.bul li::before{content:"";width:16px;height:16px;border-radius:50%;background:var(--gold);flex:none}
+.bul b{color:var(--gold)}
+.s2 .big{font-size:64px}
+.s2 .card{padding:30px 38px}
+.s3 h2{font-size:48px;margin-bottom:28px}
+.s3 .card{padding:28px}
+.s3 .card h3{font-size:23px;margin-bottom:12px}
+.s3 .card p{font-size:22px;line-height:1.35}
+.s3 .top{display:flex;align-items:center;gap:16px;margin-bottom:16px}
+.s3 .top .badge{margin:0}
+.s3 .ico{width:52px;height:52px;margin:0}
+.s4 h2{font-size:52px;margin-bottom:36px}
+.s4 .big{font-size:68px}
+.s4 .card h3{font-size:23px}
+.s4 .card p{font-size:23px;line-height:1.35}
+.slide p.t{font-size:30px}
+.box p{font-size:30px}
+.bul li{display:block;position:relative;padding-left:36px;font-size:32px}
+.bul li::before{position:absolute;left:0;top:.5em;width:16px;height:16px}
+
+/* regional pies */
+.s9 h2{margin-bottom:30px}
+.trio{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.pc{text-align:center;flex:none}
+.pc .cap{font-family:'Unbounded','Manrope',Arial,sans-serif;font-size:34px;color:var(--gold);margin-bottom:18px}
+.pie.sm{width:440px;height:440px}
+.lg{flex:1;max-width:640px}
+.rg{display:grid;grid-template-columns:36px 1fr auto;align-items:center;gap:16px;font-size:28px;margin-bottom:16px}
+.rg b{font-family:'Unbounded','Manrope',Arial,sans-serif;font-size:26px;font-weight:500}
+.rg.hd{font-size:24px;color:var(--mute);margin-bottom:20px}
+.rg.hd b{font-family:inherit;color:var(--mute);font-weight:400}
+.rg .dot{width:28px;height:28px;border-radius:8px}
